@@ -12,14 +12,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // PASTE CODE YOU WANT TO TEST HERE
         int raspberryPrice = 5;
-        display1("1 box: $" + raspberryPrice);
+       // display1("1 box: $" + raspberryPrice);
         raspberryPrice = 10;
-        display2("2 boxes: $" + (raspberryPrice));
-        display3("3 boxes: $" + (raspberryPrice * 3));
+       // display2("2 boxes: $" + (raspberryPrice));
+       // display3("3 boxes: $" + (raspberryPrice * 3));
 
-      //  display1("This is Box 1.");
-      //  display2("And this is Box 2.");
-      //  display3("And look! Box 3!");
+        display1("This is Box 1.");
+        display2("And this is Box 2.");
+        display3("And look! Box 3!");
     }
 
     /**
