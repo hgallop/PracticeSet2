@@ -39,13 +39,19 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Code accomplishes goal. Weekday sleep hours are calculated to appropriate number of days
-        int weekday = 5;
-        int weekend = 9;
-        int optimalHours = 7 * 8;
+       // int weekday = 5;
+       // int weekend = 9;
+       // int optimalHours = 7 * 8;
 
-        int actualHours = weekday * 5 + weekend * 2;
-        int solution = optimalHours - actualHours;
-        display(solution);
+       // int actualHours = weekday * 5 + weekend * 2;
+       // int solution = optimalHours - actualHours;
+       // display(solution);
+
+        // Code does not accomplish goal. Number of minutes does not average in display
+        int day1 = 15;
+        int day2 = 22;
+        int day3 = 18;
+        display(day1 + day2 + day3 / 3);
     }
 
     /**
