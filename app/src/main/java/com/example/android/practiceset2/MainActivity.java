@@ -48,10 +48,17 @@ public class MainActivity extends AppCompatActivity {
        // display(solution);
 
         // Code accomplishes goal. Number of minutes averages in display
-        int day1 = 15;
-        int day2 = 22;
-        int day3 = 18;
-        display((day1 + day2 + day3) / 3);
+        //int day1 = 15;
+        //int day2 = 22;
+        //int day3 = 18;
+        //display((day1 + day2 + day3) / 3);
+
+
+        // Code accomplishes goal. Amount in yen is displayed
+        int dollars = 40;
+        int dollarsToYen = 119;
+        int yen = dollarsToYen * dollars;
+        display(yen);
     }
 
     /**
