@@ -27,7 +27,11 @@ public class MainActivity extends AppCompatActivity {
 
         //integer number; causes error: intteger is not a type declaration
         //int int; causes error: cannot use declaration text for variable name
-        int integer;
+        //int integer;
+
+       //String currentPlaying = "Pinocchio -- Penguin Prison; causes error: missing closing quotes
+        // string currentPlaying = "Fantasy -- Alina Baraz & Galimatias"; causes error: s in string is not capitalized
+        //String currentPlaying = "Call Me Up -- Chromeo" causes arror: no semi-colon ; at end of declaration
     }
 
     /**
