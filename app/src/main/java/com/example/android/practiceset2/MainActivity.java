@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
        //String currentPlaying = "Pinocchio -- Penguin Prison; causes error: missing closing quotes
         // string currentPlaying = "Fantasy -- Alina Baraz & Galimatias"; causes error: s in string is not capitalized
         //String currentPlaying = "Call Me Up -- Chromeo" causes arror: no semi-colon ; at end of declaration
+
+       // String-name = "Katherine" causes error: Cannot write declaration with dash connecting variable name. Missing semi-colon
+       // String "name" = "Kunal"; causes error: Cannot enclose variable name in quotes
+       // String name on profile = "Lyla"; causes error: Cannot have spaces in variable name.
     }
 
     /**
