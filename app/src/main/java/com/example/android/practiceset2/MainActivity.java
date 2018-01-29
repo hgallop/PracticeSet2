@@ -17,9 +17,13 @@ public class MainActivity extends AppCompatActivity {
        // display2("2 boxes: $" + (raspberryPrice));
        // display3("3 boxes: $" + (raspberryPrice * 3));
 
-        display1("This is Box 1.");
-        display2("And this is Box 2.");
-        display3("And look! Box 3!");
+      //  display1("This is Box 1.");
+      //  display2("And this is Box 2.");
+      //  display3("And look! Box 3!");
+
+        //int unreadEmails = "10"; causes error: declares an int type but provides String value
+        int unreademails = 10;
+        //intunreadEmails = 10; causes error: no space between declared variable type and variable name
     }
 
     /**
