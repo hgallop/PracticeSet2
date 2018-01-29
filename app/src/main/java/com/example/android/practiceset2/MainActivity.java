@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
        // int solution = optimalHours - actualHours;
        // display(solution);
 
-        // Code does not accomplish goal. Number of minutes does not average in display
+        // Code accomplishes goal. Number of minutes averages in display
         int day1 = 15;
         int day2 = 22;
         int day3 = 18;
