@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
         //int yen = dollarsToYen * dollars;
         //display(yen);
 
-        //Code does not accomplish goal. Entire contact info not displayed.
+        //Code accomplishes goal. Entire contact info displayed.
         String firstName = "Lyla";
         String lastName = "Fujiwara";
         String contactInfo = firstName + " " + lastName;
-        contactInfo = "<" + lastName + "." + firstName + "@justjava.com>";
+        contactInfo = contactInfo + "<" + lastName + "." + firstName + "@justjava.com>";
         display(contactInfo);
     }
 
