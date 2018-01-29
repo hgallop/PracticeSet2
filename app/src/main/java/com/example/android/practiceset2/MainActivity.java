@@ -38,12 +38,12 @@ public class MainActivity extends AppCompatActivity {
        // String name on profile = "Lyla"; causes error: Cannot have spaces in variable name.
 
 
-        // Code does not accomplish goal. Weekday sleep hours are not calculated to appropriate number of days
+        // Code accomplishes goal. Weekday sleep hours are calculated to appropriate number of days
         int weekday = 5;
         int weekend = 9;
         int optimalHours = 7 * 8;
 
-        int actualHours = weekday;
+        int actualHours = weekday * 5;
         actualHours = actualHours + weekend * 2;
         int solution = optimalHours - actualHours;
         display(solution);
