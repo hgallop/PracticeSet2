@@ -11,9 +11,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // PASTE CODE YOU WANT TO TEST HERE
-        int raspberryPrice = 5;
+        //int raspberryPrice = 5;
        // display1("1 box: $" + raspberryPrice);
-        raspberryPrice = 10;
+        //raspberryPrice = 10;
        // display2("2 boxes: $" + (raspberryPrice));
        // display3("3 boxes: $" + (raspberryPrice * 3));
 
@@ -36,6 +36,17 @@ public class MainActivity extends AppCompatActivity {
        // String-name = "Katherine" causes error: Cannot write declaration with dash connecting variable name. Missing semi-colon
        // String "name" = "Kunal"; causes error: Cannot enclose variable name in quotes
        // String name on profile = "Lyla"; causes error: Cannot have spaces in variable name.
+
+
+        // Code does not accomplish goal. Weekday sleep hours are not calculated to appropriate number of days
+        int weekday = 5;
+        int weekend = 9;
+        int optimalHours = 7 * 8;
+
+        int actualHours = weekday;
+        actualHours = actualHours + weekend * 2;
+        int solution = optimalHours - actualHours;
+        display(solution);
     }
 
     /**
@@ -48,10 +59,15 @@ public class MainActivity extends AppCompatActivity {
         t.setText(text);
     }
 
-    public void display(int text) {
+    public void display (int i) {
         TextView t = (TextView) findViewById(R.id.display_text_view);
-        t.setText(text + "");
+        t.setText(""+i);
     }
+
+   // public void display(int text) {
+   //     TextView t = (TextView) findViewById(R.id.display_text_view);
+   //     t.setText(text + "");
+   // }
 
     public void display1(String text) {
         display(text);
