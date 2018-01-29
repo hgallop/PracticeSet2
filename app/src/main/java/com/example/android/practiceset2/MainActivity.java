@@ -22,8 +22,12 @@ public class MainActivity extends AppCompatActivity {
       //  display3("And look! Box 3!");
 
         //int unreadEmails = "10"; causes error: declares an int type but provides String value
-        int unreademails = 10;
+        //int unreademails = 10;
         //intunreadEmails = 10; causes error: no space between declared variable type and variable name
+
+        //integer number; causes error: intteger is not a type declaration
+        //int int; causes error: cannot use declaration text for variable name
+        int integer;
     }
 
     /**
